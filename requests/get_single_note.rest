@@ -1,0 +1,11 @@
+GET http://localhost:3001/api/notes/64d8a0120c01fa452f640e91
+
+###
+
+//Not found - 404
+GET http://localhost:3001/api/notes/64d8a411eb5c02ef291dfe72
+
+###
+
+//wrong id type - 400
+GET http://localhost:3001/api/notes/6
